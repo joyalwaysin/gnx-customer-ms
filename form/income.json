@@ -1,0 +1,38 @@
+[
+    {
+        "owner":"Client",
+        "type":"Basic Salary",
+        "gross_amount":"0.00",
+        "net_amount":"0.00",
+        "frequency":"Monthly",
+        "source":"",
+        "start_date":"10/03/2023",
+        "end_date":"10/03/2023",
+        "admin_note":""
+    
+    },
+    {
+        "owner":"Partner",
+        "type":"Basic Salary",
+        "gross_amount":"0.00",
+        "net_amount":"0.00",
+        "frequency":"Monthly",
+        "source":"",
+        "start_date":"10/03/2023",
+        "end_date":"10/03/2023",
+        "admin_note":""
+    
+    },
+    {
+        "owner":"Client",
+        "type":"Basic Salary",
+        "gross_amount":"0.00",
+        "net_amount":"0.00",
+        "frequency":"Monthly",
+        "source":"",
+        "start_date":"10/03/2023",
+        "end_date":"10/03/2023",
+        "admin_note":""
+    
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "outgoing":"Mortgage,rent",
+        "frequency":"Monthly",
+        "type":"Committed",
+        "client":"0.00",
+        "partner":"0.00",
+        "joint":"0.00"
+    },
+    {
+        "outgoing":"Loan",
+        "frequency":"Monthly",
+        "type":"Committed",
+        "client":"0.00",
+        "partner":"0.00",
+        "joint":"0.00"
+    },
+    {
+        "outgoing":"Gas,Electric ",
+        "frequency":"Monthly",
+        "type":"Committed",
+        "client":"0.00",
+        "partner":"0.00",
+        "joint":"0.00"
+    }
+]

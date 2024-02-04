@@ -1,0 +1,136 @@
+[
+  {
+      "user_id":1,
+      "Name":"Jhon Mathew",  
+      "user_name":"athira1",
+      "password":"athira1",
+      "typ": "Bearer",
+      "azp": "demo-client",
+      "realm_access": {
+        "roles": [
+          "IFA Admin",
+          "admin",
+          "default-roles-demo",
+          "uma_authorization"
+        ]
+      }, 
+      "permission":[
+          {
+            "scopes": [
+              "user-create"
+            ],
+            "rsid": "9ea7a76f-3886-4976-b6e3-1b28606fd51a",
+            "rsname": "User"
+          }
+        ],
+        "scope": "email profile",
+        "resource_access": {
+
+          "account": {
+          
+          "roles": [
+          
+          "manage-account",
+          
+          "manage-account-links",
+          
+        "view-profile"
+          
+          ]
+          
+        }
+          
+          }
+        },
+  {
+      "user_id":2,
+      "Name":"IFA Manager",
+      "user_name":"manu1",
+      "password":"manu1",
+      "typ": "Bearer",
+      "azp": "demo-client",
+      "realm_access": {
+        "roles": [
+          "IFA Manager",
+          "offline_access",
+          "default-roles-demo",
+          "uma_authorization"
+        ]
+      },
+      "permission":[
+          {
+            "scopes": [
+              "user-update"
+            ],
+            "rsid": "9ea7a76f-3886-4976-b6e3-1b28606fd51a",
+            "rsname": "User"
+          }
+        ],
+        "scope": "email profile",
+        "resource_access": {
+
+          "account": {
+          
+          "roles": [
+          
+          "manage-account",
+          
+          "manage-account-links",
+          
+        "view-profile"
+          
+          ]
+          
+        }
+          
+          }
+  },
+  {
+      "user_id":3,
+      "firstName":"beena",
+      "lastName":"de",
+      "user_name":"beena2",
+      "password":"beena2",
+      "typ": "Bearer",
+      "azp": "demo-client",
+      "realm_access": {
+        "roles": [
+          "offline_access",
+          "manager",
+          "default-roles-demo",
+          "uma_authorization"
+        ]
+      },
+      "permission":[
+          {
+            "scopes": [
+              "user-create",
+              "client-view",
+              "client-update",
+              "client-delete",
+              "restricted-client-enabled"
+            ],
+            "rsid": "9ea7a76f-3886-4976-b6e3-1b28606fd51a",
+            "rsname": "User"
+          }
+        ],
+        "scope": "email profile",
+        "resource_access": {
+
+          "account": {
+          
+          "roles": [
+          
+          "manage-account",
+          
+          "manage-account-links",
+          
+        "view-profile"
+          
+          ]
+          
+        }
+          
+          }
+  }
+]

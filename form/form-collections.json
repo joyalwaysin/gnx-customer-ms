@@ -1,0 +1,4890 @@
+{
+  "name_and_address": {
+    "title": "Name and Address",
+    "reference_id": "name_and_address",
+    "fields": {
+      "general": [
+        {
+          "field": "title",
+          "type": "select",
+          "label": "Title",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Dr",
+              "value": "Dr"
+            },
+            {
+              "label": "Mr",
+              "value": "Mr"
+            },
+            {
+              "label": "Mrs",
+              "value": "Mrs"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "first_name",
+          "type": "text",
+          "label": "First Name(s)",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "initials",
+          "type": "text",
+          "label": "Initials",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "last_name",
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true,
+          "required": true
+        },
+        {
+          "field": "former_last_name",
+          "type": "text",
+          "label": "Former Last Name",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "honours",
+          "type": "text",
+          "label": "Honours",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "known_as",
+          "type": "text",
+          "label": "Known As",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "address_name",
+          "type": "text",
+          "label": "Address Name",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "address_1",
+          "type": "text",
+          "label": "Street Address Line 1",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "address_2",
+          "type": "text",
+          "label": "Street Address Line 2",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "address_3",
+          "type": "text",
+          "label": "Street Address Line 3",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "town",
+          "type": "select",
+          "label": "Town",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Aberdeen",
+              "value": "Aberdeen"
+            },
+            {
+              "label": "Abergavenny",
+              "value": "Abergavenny"
+            },
+            {
+              "label": "Abergele",
+              "value": "Abergele"
+            },
+            {
+              "label": "Aberystwyth",
+              "value": "Aberystwyth"
+            },
+            {
+              "label": "Abingdon",
+              "value": "Abingdon"
+            }
+          ],
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "county",
+          "type": "select",
+          "label": "County",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yorkshire",
+              "value": "Yorkshire"
+            },
+            {
+              "label": "Hertfordshire",
+              "value": "Hertfordshire"
+            },
+            {
+              "label": "Huntingonshire",
+              "value": "Huntingonshire"
+            }
+          ],
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "country",
+          "type": "select",
+          "label": "Country",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "India",
+              "value": "India"
+            },
+            {
+              "label": "United Kingdom",
+              "value": "United Kingdom"
+            }
+          ],
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "postcode",
+          "type": "text",
+          "label": "Postcode",
+          "placeholder": "",
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "salutation",
+          "type": "text",
+          "label": "Salutation",
+          "placeholder": "",
+          "value": "",
+          "readOnly": false,
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "joint_salutation",
+          "type": "text",
+          "label": "Joint Salutation",
+          "placeholder": "",
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "joint_address_label",
+          "type": "text",
+          "label": "Joint Address Name",
+          "placeholder": "",
+          "value": "",
+          "order": 18,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "reference_id": "contact",
+    "fields": {
+      "general": [
+        {
+          "field": "home_phone",
+          "type": "text",
+          "label": "Home Phone",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "work_phone",
+          "type": "text",
+          "label": "Work Phone",
+          "value": "",
+          "placeholder": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "fax",
+          "type": "text",
+          "label": "Home Fax",
+          "value": "",
+          "placeholder": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "work_fax",
+          "type": "text",
+          "label": "Work Fax",
+          "value": "",
+          "placeholder": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "mobile",
+          "type": "text",
+          "label": "Mobile",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+
+        {
+          "field": "email",
+          "type": "text",
+          "label": "Email",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "work_email",
+          "type": "text",
+          "label": "Email (Work)",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "contact_time",
+          "type": "text",
+          "label": "Contact Time",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "postal_marketing",
+          "type": "select",
+          "label": "Marketing by Letter",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "No",
+              "value": "No"
+            },
+            {
+              "label": "Not stated",
+              "value": "Not stated"
+            },
+            {
+              "label": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "email_marketing",
+          "type": "select",
+          "label": "Marketing by Email",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "No",
+              "value": "No"
+            },
+            {
+              "label": "Not stated",
+              "value": "Not stated"
+            },
+            {
+              "label": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "value": "",
+          "order": 11,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "nationality": {
+    "title": "Nationality",
+    "reference_id": "nationality",
+    "fields": {
+      "general": [
+        {
+          "field": "nationality",
+          "type": "select",
+          "label": "Nationality",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "British",
+              "value": "British"
+            },
+            {
+              "label": "Indian",
+              "value": "Indian"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "place_of_birth",
+          "type": "select",
+          "label": "Place of Birth",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "United Kingdom",
+              "value": "United Kingdom"
+            },
+            {
+              "label": "India",
+              "value": "India"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "uk_residence",
+          "type": "select",
+          "label": "Resident Abroad",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "United Kingdom",
+              "value": "United Kingdom"
+            },
+            {
+              "label": "India",
+              "value": "India"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "country_of_residence",
+          "type": "select",
+          "label": "Country of Residence",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "United Kingdom",
+              "value": "United Kingdom"
+            },
+            {
+              "label": "India",
+              "value": "India"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "country_of_domicile",
+          "type": "select",
+          "label": "Country of Domicile",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "United Kingdom",
+              "value": "United Kingdom"
+            },
+            {
+              "label": "India",
+              "value": "India"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "personal": {
+    "title": "Personal",
+    "reference_id": "personal",
+    "fields": {
+      "general": [
+        {
+          "field": "sex",
+          "type": "select",
+          "label": "Sex",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Male",
+              "value": "Male"
+            },
+            {
+              "label": "Female",
+              "value": "Female"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "date_of_birth",
+          "type": "datepicker",
+          "label": "Date of Birth",
+          "placeholder": "",
+
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "preferred_retirement_age",
+          "type": "text",
+          "label": "Preferred  Retirement Age",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "state_retirement_date",
+          "type": "datepicker",
+          "label": "State  Retirement Date",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "pension_life_allowance",
+          "type": "text",
+          "label": "Pension Lifetime Allowance",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "marital_status",
+          "type": "select",
+          "label": "Marital Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Single",
+              "value": "Single"
+            },
+            {
+              "label": "Married",
+              "value": "Married"
+            },
+            {
+              "label": "Divorced",
+              "value": "Divorced"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "date_of_marriage",
+          "type": "datepicker",
+          "label": "Date of Marriage",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "vulnerability",
+          "type": "select",
+          "label": "Vulnerability",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Not stated",
+              "value": "Not stated"
+            },
+            {
+              "label": "Vulnerable",
+              "value": "Vulnerable"
+            },
+            {
+              "label": "Pottentialy vulnerable",
+              "value": "Pottentialy vulnerable"
+            },
+            {
+              "label": "Not vulnerable",
+              "value": "Not vulnerable"
+            }
+          ],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "vulnerability_note",
+          "type": "text-area",
+          "label": "Vulnerability Note",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "esg_attitude",
+          "type": "select",
+          "label": "ESG Attitude",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "No ESG",
+              "value": "No ESG"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "esg_attitude_note",
+          "type": "text-area",
+          "label": "ESG Attitude Note",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "will_date",
+          "type": "datepicker",
+          "label": "Date of Will",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "will_note",
+          "type": "text-area",
+          "label": "Will Note",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "power_of_attorney",
+          "type": "text-area",
+          "label": "Power of Attorney",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "deceased",
+          "type": "select",
+          "label": "Deceased",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "No",
+              "value": "No"
+            },
+            {
+              "label": "Yes",
+              "value": "Yes"
+            }
+          ],
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "death_date",
+          "type": "datepicker",
+          "label": "Date of Death",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "education_profession_experience",
+          "type": "text",
+          "label": "Education/Professional",
+          "placeholder": "",
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "ni_number",
+          "type": "text",
+          "label": "NI Number",
+          "placeholder": "",
+          "value": "",
+          "order": 18,
+          "enabled": true
+        },
+        {
+          "field": "unique_tax_ref",
+          "type": "text",
+          "label": "Unique Tax Ref",
+          "placeholder": "",
+          "value": "",
+          "order": 19,
+          "enabled": true
+        },
+        {
+          "field": "tax_ref",
+          "type": "text",
+          "label": "Tax Reference",
+          "placeholder": "",
+          "value": "",
+          "order": 20,
+          "enabled": true
+        },
+        {
+          "field": "tax_office",
+          "type": "text",
+          "label": "Tax Office",
+          "placeholder": "",
+          "value": "",
+          "order": 21,
+          "enabled": true
+        },
+        {
+          "field": "tax_rate",
+          "type": "select",
+          "label": "Tax Rate",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "12",
+              "value": "12"
+            }
+          ],
+          "value": "",
+          "order": 22,
+          "enabled": true
+        },
+        {
+          "field": "marriage_allowance",
+          "type": "select",
+          "label": "Marriage Allowance?",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 23,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "health_note": {
+    "title": "Helth Note",
+    "reference_id": "health_note",
+    "fields": {
+      "general": [
+        {
+          "field": "height",
+          "type": "text",
+          "label": "Height",
+          "placeholder": "",
+
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "weight",
+          "type": "text",
+          "label": "Weight",
+          "placeholder": "",
+
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "state_of_health",
+          "type": "text",
+          "label": "State of Health",
+          "placeholder": "",
+
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "health_note",
+          "type": "text-area",
+          "label": "Health Note",
+          "placeholder": "",
+
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "long_term_care_needed",
+          "type": "text",
+          "label": "Long Term Care Needed?",
+          "placeholder": "",
+
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "smoker",
+          "type": "text",
+          "label": "Smoker",
+          "placeholder": "",
+
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "smoker_note",
+          "type": "text",
+          "label": "Smoker Note",
+          "placeholder": "",
+
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "alcohol_note",
+          "type": "text",
+          "label": "Alcohol Note",
+          "placeholder": "",
+
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "hazardous_pursuit_note",
+          "type": "text",
+          "label": "Hazardous Pursuits",
+          "placeholder": "",
+
+          "value": "",
+          "order": 9,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "employment": {
+    "title": "Employment",
+    "reference_id": "employment",
+    "fields": {
+      "general": [
+        {
+          "field": "Occupation",
+          "type": "select",
+          "label": "Occupation",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Engineer",
+              "value": "Engineer"
+            },
+            {
+              "label": "Teacher",
+              "value": "Teacher"
+            },
+            {
+              "label": "Driver",
+              "value": "Driver"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "EmploymentType",
+          "type": "select",
+          "label": "Employment Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Employed",
+              "value": "Employed"
+            },
+            {
+              "label": "Self-Employed",
+              "value": "Self-Employed"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "EmploymentBasis",
+          "type": "select",
+          "label": "Employment Basis",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Contract",
+              "value": "Contract"
+            },
+            {
+              "label": "Full-time",
+              "value": "Full-time"
+            },
+            {
+              "label": "Part-time",
+              "value": "Part-time"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "PrincipalEmployment",
+          "type": "select",
+          "label": "Principal Employment",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "EmployerName",
+          "type": "select",
+          "label": "Employer Name",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Esher Council",
+              "value": "Esher Council"
+            },
+            {
+              "label": "Lancashire County Council",
+              "value": "Lancashire County Council"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "Address1",
+          "type": "text",
+          "label": "Employer Address1",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "Address2",
+          "type": "text",
+          "label": "Employer Address2",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "Address3",
+          "type": "text",
+          "label": "Employer Address3",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "Town",
+          "type": "select",
+          "label": "Town",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Birmingham",
+              "value": "Birmingham"
+            },
+            {
+              "label": "Bristol ",
+              "value": "Bristol "
+            },
+            {
+              "label": "Leicester",
+              "value": "Leicester"
+            }
+          ],
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "County",
+          "type": "select",
+          "label": "County",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Kent",
+              "value": "Kent"
+            },
+            {
+              "label": "Oxfordshire",
+              "value": "Oxfordshire"
+            },
+            {
+              "label": "Rutland",
+              "value": "Rutland"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "Country",
+          "type": "select",
+          "label": "Country",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "England",
+              "value": "England"
+            },
+            {
+              "label": "Scotland ",
+              "value": "Scotland "
+            },
+            {
+              "label": "Wales",
+              "value": "Wales"
+            },
+            {
+              "label": "Northern Ireland",
+              "value": "Northern Ireland"
+            }
+          ],
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "Postcode",
+          "type": "text",
+          "label": "Post Code",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "Phone",
+          "type": "text",
+          "label": "Telephone",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "Fax",
+          "type": "text",
+          "label": "Fax",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "StartDate",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "EndDate",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "SalaryReviewDate",
+          "type": "datepicker",
+          "label": "Salary Review",
+          "placeholder": "",
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "AutoEnrolment",
+          "type": "select",
+          "label": "Automatic Enrolment",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 18,
+          "enabled": true
+        },
+        {
+          "field": "RetirementAge",
+          "type": "text",
+          "label": "Retirement Age",
+          "placeholder": "",
+          "value": "",
+          "order": 19,
+          "enabled": true
+        },
+        {
+          "field": "Position",
+          "type": "text",
+          "label": "Position",
+          "placeholder": "",
+          "value": "",
+          "order": 20,
+          "enabled": true
+        },
+        {
+          "field": "PayrollId",
+          "type": "text",
+          "label": "Payroll Id",
+          "placeholder": "",
+          "value": "",
+          "order": 21,
+          "enabled": true
+        },
+        {
+          "field": "ControllingDirector",
+          "type": "select",
+          "label": "Controlling Director?",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "1"
+            },
+            {
+              "label": "No",
+              "value": "0"
+            }
+          ],
+          "value": "",
+          "order": 22,
+          "enabled": true
+        },
+        {
+          "field": "Shareholding",
+          "type": "text",
+          "label": "Shareholding",
+          "placeholder": "",
+          "value": "",
+          "order": 23,
+          "enabled": true
+        },
+        {
+          "field": "NoteText",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 24,
+          "enabled": true
+        },
+        {
+          "field": "DeathInService",
+          "type": "select-with-selectionList",
+          "label": "Death In Service",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Accident",
+              "value": "Accident"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "DeathInServiceYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 25,
+          "enabled": true
+        },
+        {
+          "field": "SickPay",
+          "type": "select-with-selectionList",
+          "label": "Sick Pay",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Injury",
+              "value": "Injury"
+            },
+            {
+              "label": "Surgery",
+              "value": "Surgery"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "SickPayYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 26,
+          "enabled": true
+        },
+        {
+          "field": "Pension",
+          "type": "select-with-selectionList",
+          "label": "Pension",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Amount?",
+              "value": "Amount?"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "PensionYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "1"
+              },
+              {
+                "label": "No",
+                "value": "0"
+              }
+            ]
+          },
+          "order": 27,
+          "enabled": true
+        },
+        {
+          "field": "PMI",
+          "type": "select-with-selectionList",
+          "label": "PMI",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Low Down Payment",
+              "value": "Low Down Payment"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "PMIYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 28,
+          "enabled": true
+        },
+        {
+          "field": "PHI",
+          "type": "select-with-selectionList",
+          "label": "PHI",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Medical Identity Theft",
+              "value": "Medical Identity Theft"
+            },
+            {
+              "label": "Legal Requirements",
+              "value": "Legal Requirements"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "PHIYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 29,
+          "enabled": true
+        },
+        {
+          "field": "CriticalIllness",
+          "type": "select-with-selectionList",
+          "label": "Critical Illness",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Financial Protection",
+              "value": "Financial Protection"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "CriticalIllnessYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 30,
+          "enabled": true
+        },
+        {
+          "field": "CompanyCar",
+          "type": "select-with-selectionList",
+          "label": "Company Car",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Job Requirement",
+              "value": "Job Requirement"
+            },
+            {
+              "label": "Employee Recruitment and Retention",
+              "value": "Employee Recruitment and Retention"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "CompanyCarYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 31,
+          "enabled": true
+        },
+        {
+          "field": "ShareOptions",
+          "type": "select-with-selectionList",
+          "label": "Share Options",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Employee Incentive",
+              "value": "Employee Incentive"
+            },
+            {
+              "label": "Retention",
+              "value": "Retention"
+            }
+          ],
+          "value": "",
+          "prefix": {
+            "field": "ShareOptionsYN",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "Yes",
+                "value": "Yes"
+              },
+              {
+                "label": "No",
+                "value": "No"
+              }
+            ]
+          },
+          "order": 32,
+          "enabled": true
+        },
+        {
+          "field": "Other",
+          "type": "select-with-selectionList",
+          "label": "Other Options",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [],
+          "value": "",
+          "prefix": {
+            "field": "Other",
+            "type": "select",
+            "label": "",
+            "placeholder": "",
+            "remote": false,
+            "apiurl": "",
+            "options": [
+              {
+                "label": "No Option",
+                "value": "No Option"
+              }
+            ],
+            "value": "",
+            "prefix": {
+              "field": "OtherYN",
+              "type": "select",
+              "label": "",
+              "placeholder": "",
+              "remote": false,
+              "apiurl": "",
+              "options": [
+                {
+                  "label": "Yes",
+                  "value": "Yes"
+                },
+                {
+                  "label": "No",
+                  "value": "No"
+                }
+              ]
+            }
+          },
+          "order": 33,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "attitude_to_risk": {
+    "title": "Attitude To Risk",
+    "reference_id": "attitude_to_risk",
+    "fields": {
+      "general": [
+        {
+          "field": "category",
+          "type": "select",
+          "label": "Category",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Risk01",
+              "value": "Risk01"
+            },
+            {
+              "label": "Risk02",
+              "value": "Risk02"
+            },
+            {
+              "label": "Risk03",
+              "value": "Risk03"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "rating",
+          "type": "select",
+          "label": "Rating",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Rating01",
+              "value": "Rating01"
+            },
+            {
+              "label": "Rating02",
+              "value": "Rating02"
+            },
+            {
+              "label": "Rating03",
+              "value": "Rating03"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "identity": {
+    "title": "Client Identity",
+    "reference_id": "identity",
+    "fields": {
+      "general": [
+        {
+          "field": "category",
+          "type": "select",
+          "label": "Category",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Proof of Address",
+              "value": "Proof of Address"
+            },
+            {
+              "label": "Proof of Identity",
+              "value": "Proof of Identity"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "item",
+          "type": "select",
+          "label": "Item",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Home visit",
+              "value": "Home visit"
+            },
+            {
+              "label": "Passport",
+              "value": "Passport"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "reference",
+          "type": "text",
+          "label": "Reference",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "issued",
+          "type": "datepicker",
+          "label": "Issued",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "expires",
+          "type": "datepicker",
+          "label": "Expires",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "issued_at",
+          "type": "text",
+          "label": "Issued at",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "seen",
+          "type": "datepicker",
+          "label": "Seen",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "objectives": {
+    "title": "Client Objectives",
+    "reference_id": "objectives",
+    "fields": {
+      "general": [
+        {
+          "field": "sort_order",
+          "type": "text",
+          "label": "Sort Order",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "objectives",
+          "type": "select",
+          "label": "Objective",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Insurance for your Business",
+              "value": "Insurance for your Business"
+            },
+            {
+              "label": "Family Protection in the Event of Death",
+              "value": "Family Protection in the Event of Death"
+            },
+            {
+              "label": "Review Plans for Retirement",
+              "value": "Review Plans for Retirement"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "applicable",
+          "type": "select",
+          "label": "Applicable",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "1"
+            },
+            {
+              "label": "No",
+              "value": "0"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "rating",
+          "type": "text",
+          "label": "Rating",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "service_type": {
+    "title": "Client Service Type",
+    "reference_id": "service_type",
+    "fields": {
+      "general": [
+        {
+          "field": "description",
+          "type": "select",
+          "label": "Service Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Initial Advice",
+              "value": "Initial Advice"
+            },
+            {
+              "label": "New Service",
+              "value": "New Service"
+            },
+            {
+              "label": "Ongoing Service",
+              "value": "Ongoing Service"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  
+  "asset_banks_building_societies_payment": {
+    "title": "Asset Bank Building Socities Payment",
+    "reference_id": "asset_banks_building_societies_payment",
+    "fields": {
+      "general": [
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "amount",
+          "type": "text",
+          "label": "Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            },
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+            {
+              "label": "Half-yearly",
+              "value": "Half-yearly"
+            },
+            {
+              "label": "4-weekly",
+              "value": "4-weekly"
+            },
+            {
+              "label": "Fortnighty",
+              "value": "Fortnighty"
+            },
+            {
+              "label": "Weekly",
+              "value": "Weekly"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "new_business_register",
+          "type": "select",
+          "label": "Is This New Business?",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "reinvestment",
+          "type": "select",
+          "label": "Reinvestment",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "payment_type",
+          "type": "select",
+          "label": "Payment Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            }
+          ],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_investment_payment": {
+    "title": "Asset Investment Payment",
+    "reference_id": "asset_investment_payment",
+    "fields": {
+      "general": [
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "amount",
+          "type": "text",
+          "label": "Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            },
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+            {
+              "label": "Half-yearly",
+              "value": "Half-yearly"
+            },
+            {
+              "label": "4-weekly",
+              "value": "4-weekly"
+            },
+            {
+              "label": "Fortnighty",
+              "value": "Fortnighty"
+            },
+            {
+              "label": "Weekly",
+              "value": "Weekly"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "reinvestment",
+          "type": "select",
+          "label": "Reinvestment",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "payment_type",
+          "type": "select",
+          "label": "Payment Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_share_holdings_payment": {
+    "title": "Asset Share Holding Payment",
+    "reference_id": "asset_share_holdings_payment",
+    "fields": {
+      "general": [
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "amount",
+          "type": "text",
+          "label": "Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            },
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+            {
+              "label": "Half-yearly",
+              "value": "Half-yearly"
+            },
+            {
+              "label": "4-weekly",
+              "value": "4-weekly"
+            },
+            {
+              "label": "Fortnighty",
+              "value": "Fortnighty"
+            },
+            {
+              "label": "Weekly",
+              "value": "Weekly"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "new_business_register",
+          "type": "select",
+          "label": "Is This New Business?",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "reinvestment",
+          "type": "select",
+          "label": "Reinvestment",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "payment_type",
+          "type": "select",
+          "label": "Payment Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            }
+          ],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_investment_review": {
+    "title": "Asset Investment Review",
+    "reference_id": "asset_investment_review",
+    "fields": {
+      "general": [
+        {
+          "field": "review_date",
+          "type": "datepicker",
+          "label": "Review Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "review_interval",
+          "type": "text",
+          "label": "Review Interval(mths)",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "review_completed",
+          "type": "datepicker",
+          "label": "Review Completed",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "review_reason",
+          "type": "text-area",
+          "label": "Review Note",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "review_assigned",
+          "type": "select",
+          "label": "Review Asigned",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Mr.John",
+              "value": "Mr.John"
+            },
+            {
+              "label": "Ms.John",
+              "value": "Ms.John"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "administration": {
+    "title": "Administration",
+    "reference_id": "administration",
+    "fields": {
+      "general": [
+        {
+          "field": "client_type",
+          "type": "select",
+          "label": "Client Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Gold",
+              "value": "Gold"
+            },
+            {
+              "label": "VIP",
+              "value": "VIP"
+            },
+            {
+              "label": "Dormant",
+              "value": "Dormant"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "fsa_client_type",
+          "type": "select",
+          "label": "Other Client Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Silver",
+              "value": "Silver"
+            },
+            {
+              "label": "Corporate",
+              "value": "Corporate"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+
+        {
+          "field": "client_reference",
+          "type": "text",
+          "label": "Client Reference",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "client_since",
+          "type": "datepicker",
+          "label": "Client Since",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "pending",
+          "type": "select",
+          "label": "Restricted Access?",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "1"
+            },
+            {
+              "label": "No",
+              "value": "0"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "consultant",
+          "type": "select",
+          "label": "Consultant",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "introduced_by",
+          "type": "select",
+          "label": "Introduced by",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Reffered",
+              "value": "Reffered"
+            },
+            {
+              "label": "Website",
+              "value": "Website"
+            }
+          ],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "review_interval",
+          "type": "text",
+          "label": "Review Interval(mths)",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "review_completed",
+          "type": "datepicker",
+          "label": "Review completed",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "review_date",
+          "type": "datepicker",
+          "label": "Next Review due",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+
+        {
+          "field": "review_assigned",
+          "type": "select",
+          "label": "Review Assigned",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "review_note",
+          "type": "text-area",
+          "label": "Next Review Note",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Headline note",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "compliance": {
+    "title": "Compliance",
+    "reference_id": "compliance",
+    "fields": {
+      "general": [
+        {
+          "field": "business_card",
+          "type": "datepicker",
+          "label": "Business Card",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "client_agreement",
+          "type": "datepicker",
+          "label": "Client Agreement",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "terms_of_business_sent",
+          "type": "datepicker",
+          "label": "Terms of Engagement",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "idd",
+          "type": "datepicker",
+          "label": "IDD",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "menu",
+          "type": "datepicker",
+          "label": "Menu",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "fact_find_completed",
+          "type": "datepicker",
+          "label": "Fact-find",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "data_protection_form_sent",
+          "type": "datepicker",
+          "label": "Data Protection",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "risk_profile",
+          "type": "datepicker",
+          "label": "Risk Profiling",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "risk_profile_note",
+          "type": "text-area",
+          "label": "Risk Profile Note",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "verification_of_identity",
+          "type": "datepicker",
+          "label": "Identity Verified",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "sanctions_check",
+          "type": "datepicker",
+          "label": "Sanctions Check",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_investment_asset": {
+    "title": "Investment",
+    "reference_id": "asset_investment_asset",
+    "fields": {
+      "general": [
+        {
+          "field": "owner",
+          "type": "select",
+          "label": "Owner",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "owner",
+          "type": "select",
+          "label": "Owner Detail",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "owner_name1",
+          "type": "select",
+          "label": "Owner Name 1",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint owner 1",
+              "value": "Joint owner 1"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "owner_name2",
+          "type": "select",
+          "label": "Owner Name 2",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint Owner 2",
+              "value": "Joint Owner 2"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "investment_type",
+          "type": "select",
+          "label": "Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "ISAS",
+              "value": "ISAS"
+            },
+            {
+              "label": "Unit Trust",
+              "value": "Unit Trust"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "investment_subtype",
+          "type": "select",
+          "label": "Subtype",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Mini-Cash",
+              "value": "Mini-Cash"
+            },
+            {
+              "label": "Mini-equity",
+              "value": "Mini-equity"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "provider",
+          "type": "select",
+          "label": "Provider",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "First Direct",
+              "value": "First Direct"
+            },
+            {
+              "label": "Legal & General",
+              "value": "Legal & General"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "provider_coresondance",
+          "type": "select",
+          "label": "Provider Correspondance",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "investment_account_number",
+          "type": "text",
+          "label": "Account Number",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "current_value",
+          "type": "text",
+          "label": "Current Value",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "value_Date",
+          "type": "datepicker",
+          "label": "Value Date",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "purpose",
+          "type": "select",
+          "label": "Purpose",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            },
+            {
+              "label": "Deposit Field",
+              "value": "Deposit Field"
+            }
+          ],
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "investment_start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "investment_end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "status",
+          "type": "select",
+          "label": "Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Active",
+              "value": "Active"
+            },
+            {
+              "label": "Pending",
+              "value": "Pending"
+            },
+            {
+              "label": "Declined",
+              "value": "Declined"
+            },
+            {
+              "label": "Expired",
+              "value": "Expired"
+            }
+          ],
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "staus_date",
+          "type": "datepicker",
+          "label": "Status Date",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "service_status",
+          "type": "select",
+          "label": "Service Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Managed",
+              "value": "Managed"
+            },
+            {
+              "label": "Unmanaged",
+              "value": "Unmanaged"
+            }
+          ],
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "admin_note",
+          "type": "text-area",
+          "label": "Admin Note",
+          "placeholder": "",
+          "value": "",
+          "order": 18,
+          "enabled": true
+        },
+        {
+          "field": "report_note",
+          "type": "text-area",
+          "label": "Report Note",
+          "placeholder": "",
+          "value": "",
+          "order": 19,
+          "enabled": true
+        },
+        {
+          "field": "provider_contact_name",
+          "type": "text",
+          "label": "Provider Contact",
+          "placeholder": "",
+          "value": "",
+          "order": 20,
+          "enabled": true
+        },
+        {
+          "field": "provider_phone",
+          "type": "text",
+          "label": "Provider Phone",
+          "placeholder": "",
+          "value": "",
+          "order": 21,
+          "enabled": true
+        },
+        {
+          "field": "provider_note",
+          "type": "text-area",
+          "label": "Provider Note",
+          "placeholder": "",
+          "value": "",
+          "order": 22,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_share_holdings_asset": {
+    "title": "Shareholding",
+    "reference_id": "asset_share_holdings_asset",
+    "fields": {
+      "general": [
+        {
+          "field": "share_owner",
+          "type": "select",
+          "label": "Owner",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "share_owner_detail",
+          "type": "select",
+          "label": "Owner Detail",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "share_owner_name1",
+          "type": "select",
+          "label": "Owner Name 1",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint Owner 1 ",
+              "value": "Joint Owner 1 "
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "share_owner_name2",
+          "type": "select",
+          "label": "Owner Name 2",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint Owner 2",
+              "value": "Joint Owner 2"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "share_type",
+          "type": "select",
+          "label": "Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "ISAS",
+              "value": "ISAS"
+            },
+            {
+              "label": "Unit Trust",
+              "value": "Unit Trust"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "share_subtype",
+          "type": "select",
+          "label": "Subtype",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Mini-Cash",
+              "value": "Mini-Cash"
+            },
+            {
+              "label": "Mini-equity",
+              "value": "Mini-equity"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "share_company",
+          "type": "select",
+          "label": "Company",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "British Aerospace",
+              "value": "British Aerospace"
+            },
+            {
+              "label": "British Airways",
+              "value": "British Airways"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "provider_coresondance",
+          "type": "select",
+          "label": "Company Correspondance",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "share_current_number",
+          "type": "text",
+          "label": "Quantity",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "share_current_price",
+          "type": "text",
+          "label": "Current Price",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "current_value",
+          "type": "text",
+          "label": "Current Value",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "value_Date",
+          "type": "datepicker",
+          "label": "Value Date",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "purpose",
+          "type": "select",
+          "label": "Purpose",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            },
+            {
+              "label": "Deposit Field",
+              "value": "Deposit Field"
+            }
+          ],
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+
+        {
+          "field": "share_date_acquired",
+          "type": "datepicker",
+          "label": "Date Acquired",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "share_original_value",
+          "type": "text",
+          "label": "Orginal Value",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "status",
+          "type": "select",
+          "label": "Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Active",
+              "value": "Active"
+            },
+            {
+              "label": "Pending",
+              "value": "Pending"
+            }
+          ],
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "staus_date",
+          "type": "datepicker",
+          "label": "Status Date",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "service_status",
+          "type": "select",
+          "label": "Service Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Managed",
+              "value": "Managed"
+            },
+            {
+              "label": "Unmanaged",
+              "value": "Unmanaged"
+            }
+          ],
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "admin_note",
+          "type": "text-area",
+          "label": "Admin Note",
+          "placeholder": "",
+          "value": "",
+          "order": 18,
+          "enabled": true
+        },
+        {
+          "field": "report_note",
+          "type": "text-area",
+          "label": "Report Note",
+          "placeholder": "",
+          "value": "",
+          "order": 19,
+          "enabled": true
+        },
+        {
+          "field": "provider_contact_name",
+          "type": "text",
+          "label": "Company Contact",
+          "placeholder": "",
+          "value": "",
+          "order": 20,
+          "enabled": true
+        },
+        {
+          "field": "provider_phone",
+          "type": "text",
+          "label": "Company Phone",
+          "placeholder": "",
+          "value": "",
+          "order": 21,
+          "enabled": true
+        },
+        {
+          "field": "provider_note",
+          "type": "text-area",
+          "label": "Company Note",
+          "placeholder": "",
+          "value": "",
+          "order": 22,
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "asset_home_personal_asset": {
+    "title": "Asset Home and personal",
+    "reference_id": "asset_home_personal_asset",
+    "fields": {
+      "general": [
+        {
+          "field": "home_owner",
+          "type": "select",
+          "label": "Owner",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "home_owner_detail",
+          "type": "select",
+          "label": "Owner Detail",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "home_owner_name1",
+          "type": "select",
+          "label": "Owner Name 1",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint owner 1",
+              "value": "Joint owner 1"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "home_owner_name2",
+          "type": "select",
+          "label": "Owner Name 2",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint owner 2",
+              "value": "Joint owner 2"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "home_description",
+          "type": "select",
+          "label": "Description",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Main Residence",
+              "value": "Main Residence"
+            },
+            {
+              "label": "Principal Residence",
+              "value": "Principal Residence"
+            },
+            {
+              "label": "Rental Property",
+              "value": "Rental Property"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "home_date_acquired",
+          "type": "datepicker",
+          "label": "Date Acquired",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "home_original_value",
+          "type": "text",
+          "label": "Orginal Value",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "current_value",
+          "type": "text",
+          "label": "Current Value",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "value_Date",
+          "type": "datepicker",
+          "label": "Value Date",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "purpose",
+          "type": "select",
+          "label": "Purpose",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            },
+            {
+              "label": "Deposit Field",
+              "value": "Deposit Field"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Admin Note",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "report_note",
+          "type": "text-area",
+          "label": "Report Note",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "asset_banks_building_societies_asset": {
+    "title": "Asset home and personal",
+    "reference_id": "asset_banks_building_societies_asset",
+    "fields": {
+      "general": [
+        {
+          "field": "bank_owner",
+          "type": "select",
+          "label": "Owner",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "bank_owner_detail",
+          "type": "select",
+          "label": "Owner Detail",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "bank_owner_name1",
+          "type": "select",
+          "label": "Owner Name 1",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint owner 1",
+              "value": "Joint owner 1"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "bank_owner_name2",
+          "type": "select",
+          "label": "Owner Name 2",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Joint Owner 2",
+              "value": "Joint Owner 2"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "bank_account_type",
+          "type": "select",
+          "label": "Account Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Deposit Account",
+              "value": "Deposit Account"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "bank_name",
+          "type": "select",
+          "label": "Bank Name",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Nationwide",
+              "value": "Nationwide"
+            },
+            {
+              "label": "Santander",
+              "value": "Santander"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "bank_sort_code",
+          "type": "text",
+          "label": "Sort Code",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "bank_account_name",
+          "type": "text",
+          "label": "Account Name",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "bank_account_number",
+          "type": "text",
+          "label": "Account Number",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "purpose",
+          "type": "select",
+          "label": "Purpose",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Cash saving",
+              "value": "Cash saving"
+            },
+            {
+              "label": "Deposit Field",
+              "value": "Deposit Field"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "current_value",
+          "type": "text",
+          "label": "Balance",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "value_date",
+          "type": "datepicker",
+          "label": "Balance Date",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "bank_interest_rate",
+          "type": "text",
+          "label": "Interest Rate",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "bank_date_opened",
+          "type": "datepicker",
+          "label": "Date Opened",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "bank_status",
+          "type": "select",
+          "label": "Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Active",
+              "value": "Active"
+            },
+            {
+              "label": "Pending",
+              "value": "Pending"
+            }
+          ],
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "staus_date",
+          "type": "datepicker",
+          "label": "Status Date",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        },
+        {
+          "field": "service_status",
+          "type": "select",
+          "label": "Service Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Managed",
+              "value": "Managed"
+            },
+            {
+              "label": "Unmanaged",
+              "value": "Unmanaged"
+            }
+          ],
+          "value": "",
+          "order": 17,
+          "enabled": true
+        },
+        {
+          "field": "note_text",
+          "type": "text-area",
+          "label": "Admin Note",
+          "placeholder": "",
+          "value": "",
+          "order": 18,
+          "enabled": true
+        },
+        {
+          "field": "report_note",
+          "type": "text-area",
+          "label": "Report Note",
+          "placeholder": "",
+          "value": "",
+          "order": 19,
+          "enabled": true
+        },
+        {
+          "field": "provider_contact_name",
+          "type": "text",
+          "label": "Contact",
+          "placeholder": "",
+          "value": "",
+          "order": 20,
+          "enabled": true
+        },
+        {
+          "field": "provider_phone",
+          "type": "text",
+          "label": "Phone",
+          "placeholder": "",
+          "value": "",
+          "order": 21,
+          "enabled": true
+        },
+        {
+          "field": "provider_note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 22,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "dependants": {
+    "title": "Dependant",
+    "reference_id": "dependants",
+    "fields": {
+      "general": [
+        {
+          "field": "title",
+          "type": "select",
+          "label": "Title",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Dr",
+              "value": "Dr"
+            },
+            {
+              "label": "Mr",
+              "value": "Mr"
+            },
+            {
+              "label": "Mrs",
+              "value": "Mrs"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "first_name",
+          "type": "text",
+          "label": "First Name(s)",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "last_name",
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "known_as",
+          "type": "text",
+          "label": "Known as",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "sex",
+          "type": "select",
+          "label": "Sex",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Male",
+              "value": "Male"
+            },
+            {
+              "label": "Female",
+              "value": "Female"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "date_of_birth",
+          "type": "datepicker",
+          "label": "Date of Birth",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "relation_of_client",
+          "type": "select",
+          "label": "Relation to Client",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Daughter",
+              "value": "Daughter"
+            },
+            {
+              "label": "Father",
+              "value": "Father"
+            },
+            {
+              "label": "Mother",
+              "value": "Mother"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "parent",
+          "type": "text",
+          "label": "Parent",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "smoker",
+          "type": "select",
+          "label": "Smoker",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "living_at_home",
+          "type": "select",
+          "label": "Living at Home",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "financially_dependant",
+          "type": "select",
+          "label": "Financially Dependant",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Yes",
+              "value": "Yes"
+            },
+            {
+              "label": "No",
+              "value": "No"
+            }
+          ],
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "outgoings": {
+    "title": "Outgoings",
+    "reference_id": "outgoings",
+    "fields": {
+      "general": [
+        {
+          "field": "sort_order",
+          "type": "text",
+          "label": "Sort Order",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "Description",
+          "type": "select",
+          "label": "Description",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Car Insurance",
+              "value": "Car Insurance"
+            },
+            {
+              "label": "Car Payment",
+              "value": "Car Payment"
+            },
+            {
+              "label": "Social Expenses",
+              "value": "Social Expenses"
+            },
+            {
+              "label": "Travel Expenses",
+              "value": "Travel Expenses"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "Frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            },
+
+            {
+              "label": "4-weekly",
+              "value": "4-weekly"
+            },
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+
+            {
+              "label": "Half-yearly",
+              "value": "Half-yearly"
+            },
+            {
+              "label": "Fortnightly",
+              "value": "Fortnightly"
+            },
+            {
+              "label": "Weekly",
+              "value": "Weekly"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "Type",
+          "type": "select",
+          "label": "Type",
+          "placeholder": "Choose",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Committed",
+              "value": "Committed"
+            },
+            {
+              "label": "Discretionary",
+              "value": "Discretionary"
+            },
+            {
+              "label": "Essential",
+              "value": "Essential"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "client_amount",
+          "type": "text",
+          "label": "Client Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "partner_amount",
+          "type": "text",
+          "label": "Partner Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "joint_amount",
+          "type": "text",
+          "label": "Joint Amount ",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "income": {
+    "title": "Asset home and personal",
+    "reference_id": "income",
+    "fields": {
+      "general": [
+        {
+          "field": "sort_order",
+          "type": "text",
+          "label": "Sort Order",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "owner",
+          "type": "select",
+          "label": "Owner",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "type",
+          "type": "select",
+          "label": "Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Bank Interest",
+              "value": "Bank Interest"
+            },
+            {
+              "label": "Pension Income",
+              "value": "Pension Income"
+            },
+            {
+              "label": "Self Employment",
+              "value": "Self Employment"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "gross_amount",
+          "type": "text",
+          "label": "Gross Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "net_amount",
+          "type": "text",
+          "label": "Net Amount",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "source",
+          "type": "select",
+          "label": "Source",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Employment",
+              "value": "Employment"
+            },
+            {
+              "label": "Bank Interest",
+              "value": "Bank Interest"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "client_address": {
+    "title": "Address Book",
+    "reference_id": "client_address",
+    "fields": {
+      "general": [
+        {
+          "field": "address_type",
+          "type": "select",
+          "label": "Address Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Primary",
+              "value": "Primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "Secondary"
+            }
+          ],
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "organisation",
+          "type": "text",
+          "label": "Organisation",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "contact_name",
+          "type": "text",
+          "label": "Contact Name",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "street_address_1",
+          "type": "text",
+          "label": "Street Address 1",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "street_address_2",
+          "type": "text",
+          "label": "Street Address 2",
+          "placeholder": "",
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "street_address_3",
+          "type": "text",
+          "label": "Street Address 3",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "town",
+          "type": "select",
+          "label": "Town",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Birmingham",
+              "value": "Birmingham"
+            },
+            {
+              "label": "Bristol ",
+              "value": "Bristol "
+            },
+            {
+              "label": "Leicester",
+              "value": "Leicester"
+            }
+          ],
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "county",
+          "type": "select",
+          "label": "County",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Kent",
+              "value": "Kent"
+            },
+            {
+              "label": "Oxfordshire",
+              "value": "Oxfordshire"
+            },
+            {
+              "label": "Rutland",
+              "value": "Rutland"
+            }
+          ],
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "country",
+          "type": "select",
+          "label": "Country",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "England",
+              "value": "England"
+            },
+            {
+              "label": "Scotland ",
+              "value": "Scotland "
+            },
+            {
+              "label": "Wales",
+              "value": "Wales"
+            },
+            {
+              "label": "Northern Ireland",
+              "value": "Northern Ireland"
+            }
+          ],
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "post_code",
+          "type": "text",
+          "label": "Postcode",
+          "placeholder": "",
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "telephone",
+          "type": "text",
+          "label": "Telephone",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        },
+        {
+          "field": "home_phone",
+          "type": "text",
+          "label": "Home phone",
+          "placeholder": "",
+          "value": "",
+          "order": 12,
+          "enabled": true
+        },
+        {
+          "field": "work_phone",
+          "type": "text",
+          "label": "Work Phone",
+          "placeholder": "",
+          "value": "",
+          "order": 13,
+          "enabled": true
+        },
+        {
+          "field": "effective_date",
+          "type": "datepicker",
+          "label": "Effective Date",
+          "placeholder": "",
+          "value": "",
+          "order": 14,
+          "enabled": true
+        },
+        {
+          "field": "work_phone",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 15,
+          "enabled": true
+        },
+        {
+          "field": "set_as_client_address",
+          "type": "text",
+          "label": "Set as Client Address",
+          "placeholder": "",
+          "value": "",
+          "order": 16,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "client_fees": {
+    "title": "Client Fee/Charge",
+    "reference_id": "client_fee",
+    "fields": {
+      "general": [
+        {
+          "field": "status",
+          "type": "text",
+          "label": "Status",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "fee_type",
+          "type": "text",
+          "label": "Fee Type",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "source_of_payment",
+          "type": "select",
+          "label": "Source of Payment",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "amount_of_company",
+          "type": "text",
+          "label": "Amount of Company",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "frequency",
+          "type": "select",
+          "label": "Frequency",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Quarterly",
+              "value": "Quarterly"
+            },
+            {
+              "label": "Monthly",
+              "value": "Monthly"
+            },
+            {
+              "label": "Annual",
+              "value": "Annual"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "start_date",
+          "type": "datepicker",
+          "label": "Start Date",
+          "placeholder": "",
+          "value": "",
+          "order": 6,
+          "enabled": true
+        },
+        {
+          "field": "end_date",
+          "type": "datepicker",
+          "label": "End Date",
+          "placeholder": "",
+          "value": "",
+          "order": 7,
+          "enabled": true
+        },
+        {
+          "field": "or",
+          "type": "text",
+          "label": "Or",
+          "placeholder": "",
+          "value": "",
+          "order": 8,
+          "enabled": true
+        },
+        {
+          "field": "number_of_payment",
+          "type": "text",
+          "label": "Number of Payment",
+          "placeholder": "",
+          "value": "",
+          "order": 9,
+          "enabled": true
+        },
+        {
+          "field": "consultant",
+          "type": "select",
+          "label": "Consultant",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 10,
+          "enabled": true
+        },
+        {
+          "field": "work_phone",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 11,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "client_action": {
+    "title": "Client Action",
+    "reference_id": "client_fee",
+    "fields": {
+      "general": [
+        {
+          "field": "date",
+          "type": "datepicker",
+          "label": "Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "time",
+          "type": "text",
+          "label": "Time",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "type",
+          "type": "select",
+          "label": "Type",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Client",
+              "value": "Client"
+            },
+            {
+              "label": "Partner",
+              "value": "Partner"
+            },
+            {
+              "label": "Joint",
+              "value": "Joint"
+            }
+          ],
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 4,
+          "enabled": true
+        },
+        {
+          "field": "assigned",
+          "type": "select",
+          "label": "Assigned",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 5,
+          "enabled": true
+        },
+        {
+          "field": "status",
+          "type": "select",
+          "label": "Status",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 6,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  },
+  "time_allocation": {
+    "title": "Client Action",
+    "reference_id": "client_fee",
+    "fields": {
+      "general": [
+        {
+          "field": "date",
+          "type": "datepicker",
+          "label": "Date",
+          "placeholder": "",
+          "value": "",
+          "order": 1,
+          "enabled": true
+        },
+        {
+          "field": "duration",
+          "type": "text",
+          "label": "Duration",
+          "placeholder": "",
+          "value": "",
+          "order": 2,
+          "enabled": true
+        },
+        {
+          "field": "note",
+          "type": "text-area",
+          "label": "Note",
+          "placeholder": "",
+          "value": "",
+          "order": 3,
+          "enabled": true
+        },
+        {
+          "field": "resource",
+          "type": "select",
+          "label": "Resource",
+          "placeholder": "",
+          "remote": false,
+          "apiurl": "",
+          "options": [
+            {
+              "label": "Brain King",
+              "value": "Brain King"
+            },
+            {
+              "label": "Peter Taylor",
+              "value": "Peter Taylor"
+            }
+          ],
+          "value": "",
+          "order": 4,
+          "enabled": true
+        }
+      ],
+      "custom": []
+    }
+  }
+}

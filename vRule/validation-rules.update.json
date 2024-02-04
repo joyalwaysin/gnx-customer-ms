@@ -1,0 +1,4137 @@
+{
+  "name_and_address": [
+    {
+      "field": "title",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Title cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "first_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 30,
+          "message": "First Name cannot be longer than 30 characters"
+        }
+      ]
+    },
+    {
+      "field": "last_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Last Name is  required"
+        },
+        {
+          "type": "min",
+          "value": 1,
+          "message": "Last Name should contain atleast one character"
+        },
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Last Name cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "initials",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5,
+          "message": "Initials cannot be longer than 5 characters"
+        }
+      ]
+    },
+    {
+      "field": "former_last_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 30,
+          "message": "Former Last Name cannot be longer than 30 characters"
+        }
+      ]
+    },
+    {
+      "field": "honours",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Honours cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "known_as",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Known As cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Address Name cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_1",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address Line 1 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_2",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address Line 2 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_3",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address Line 3 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 9,
+          "message": "Postcode cannot be longer than 9 characters"
+        }
+      ]
+    },
+    
+    {
+      "field": "salutation",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 25,
+          "message": "Salutation cannot be longer than 25 characters"
+        }
+      ]
+    },
+    {
+      "field": "joint_salutation",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 100,
+          "message": "Joint Salutation cannot be longer than 100 characters"
+        }
+      ]
+    },
+    {
+      "field": "joint_address_label",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 100,
+          "message": "Joint Address Label cannot be longer than 100 characters"
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "field": "home_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "pattern",
+          "value": "^(\\+\\d{1,3})?\\d+$",
+          "message": "Home phone must be a valid phone number"
+        },
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Home Phone cannot be longer than 20 digits"
+        }
+      ]
+    },
+    {
+      "field": "work_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Work Phone cannot be longer than 20 digits"
+        },
+        {
+          "type": "pattern",
+          "value": "^(\\+\\d{1,3})?\\d+$",
+          "message": "Work phone must be a valid phone number"
+        }
+      ]
+    },
+    {
+      "field": "fax",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Home Fax cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "work_fax",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Work Fax cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "mobile",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Mobile cannot be longer than 20 digits"
+        },
+        {
+          "type": "pattern",
+          "value": "^(\\+\\d{1,3})?\\d+$",
+          "message": "Mobile must be a valid number"
+        }
+      ]
+    },
+    {
+      "field": "email",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Email cannot be longer than 50 characters"
+        },
+        {
+          "type": "email",
+          "message": "Invalid Email"
+        }
+      ]
+    },
+    {
+      "field": "work_email",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Email (Work) cannot be longer than 50 characters"
+        },
+        {
+          "type": "email",
+          "message": "Invalid  Work Email"
+        }
+      ]
+    },
+    {
+      "field": "preferred_contact_time",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Contact Time cannot be longer than 35 characters"
+        }
+      ]
+    }
+  ],
+  "personal": [
+    {
+      "field": "date_of_birth",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date"
+        },
+        {
+          "type": "max",
+          "value": "now",
+          "message": "Date of birth cannot be a future date"
+        }
+      ]
+    },
+
+    {
+      "field": "preferred_retirement_age",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "pattern",
+          "value": "^[a-zA-Z0-9]*$",
+          "message": "Preferred Retirement Age only accept alphanumeric"
+        },
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Preferred Retirement Age cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "pension_life_allowance",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Pention Lifetime Allowance cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "vulnerability_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Vulnerability Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "esg_attitude_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "ESG Attitude Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+
+    {
+      "field": "will_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Will Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "power_of_attorney",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Power of Attorney cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "education_profession_experience",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Education/Professional cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "ni_number",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 9,
+          "message": "NI Number cannot be longer than 9 characters"
+        }
+      ]
+    },
+    {
+      "field": "unique_tax_ref",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 13,
+          "message": "Unique tax ref cannot be longer than 13 characters"
+        }
+      ]
+    },
+    {
+      "field": "tax_ref",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 40,
+          "message": "Tax Reference cannot be longer than 40 characters"
+        }
+      ]
+    },
+
+    {
+      "field": "tax_office",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Tax Office cannot be longer than 20 characters"
+        }
+      ]
+    }
+  ],
+  "health_note": [
+    {
+      "field": "height",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "pattern",
+          "value": "^[a-zA-Z0-9_.-]*$",
+          "message": " Height field should accept only alphanumeric "
+        },
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Height cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "weight",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "pattern",
+          "value": "^[a-zA-Z0-9_.-]*$",
+          "message": " Weight field should accept only alphanumeric "
+        },
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Weight cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "state_of_health",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "State of health cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "health_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Health Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "long_term_care_needed",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Long Term Care Needed cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "smoker",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "smoker cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "smoker_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Smoker Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "alcohol_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Alcohol Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "hazardous_pursuit_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Hazardous Pursuit cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "employment": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "principal_employment",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Principal Employment cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "occupation",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 40,
+          "message": "Occupation cannot be longer than 40 characters"
+        }
+      ]
+    },
+    {
+      "field": "employment_type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Employment Type cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "employer_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Employer Name cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_1",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Employer Address1 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_2",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Employer Address2 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_3",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Employer Address3 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "postcode",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 8,
+          "message": "Post Code cannot be longer than 8 characters"
+        }
+      ]
+    },
+    {
+      "field": "phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Telephone cannot be longer than 20 characters"
+        },
+        {
+          "type": "phoneNumber",
+          "message": "Telephone must be a valid phone number"
+        }
+      ]
+    },
+    {
+      "field": "fax",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Fax cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "start_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date format"
+        }
+      ]
+    },
+    {
+      "field": "end_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date format"
+        }
+      ]
+    },
+    {
+      "field": "salary_review_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date format"
+        }
+      ]
+    },
+
+    {
+      "field": "position",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Position cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "payroll_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Payroll Id cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "shareholding",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Shareholding  cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "town",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 30,
+          "message": "Town cannot be longer than 30 characters"
+        }
+      ]
+    },
+    {
+      "field": "county",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "County cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "country",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 30,
+          "message": "Country cannot be longer than 30 characters"
+        }
+      ]
+    },
+    {
+      "field": "controlling_director",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Controlling Director cannot be longer than 35 characters"
+        }
+      ]
+    },
+
+    {
+      "field": "employment_basis",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Employment Basis cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "death_in_service",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Death in Service cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "sick_pay",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Sick Pay cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "pmi",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "PMI cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "phi",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "PHI cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "critical_illness",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Critical Illness cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "company_car",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Company Car cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "share_options",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Share Options cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "other",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Other cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "pension",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Pension cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "auto_enrolment",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Auto Enrolment cannot be longer than 35 characters"
+        }
+      ]
+    }
+  ],
+  "attitude_to_risk": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "sort_order",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Sort Order must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "rating_score",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Rating Score must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "rating",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Rating cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "rating_description",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 1000,
+          "message": "Rating Description cannot be longer than 1000 characters"
+        }
+      ]
+    },
+    {
+      "field": "category",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Category cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "category_description",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 500,
+          "message": "Category Description cannot be longer than 500 characters"
+        }
+      ]
+    }
+  ],
+  "identity": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "category",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 25,
+          "message": "Category cannot be longer than 25 characters"
+        }
+      ]
+    },
+    {
+      "field": "item",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Item cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Reference cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "issued",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Issued must be a valid date"
+        }
+      ]
+    },
+    {
+      "field": "expires",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Expires must be a valid date"
+        }
+      ]
+    },
+    {
+      "field": "seen",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Seen must be a valid date"
+        }
+      ]
+    },
+    {
+      "field": "place_of_birth",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "PlaceOfBirth cannot be longer than 35 characters"
+        }
+      ]
+    },
+
+    {
+      "field": "reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Reference cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "date_of_birth",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date"
+        },
+        {
+          "type": "custom",
+          "validate": "dateNotInFuture",
+          "message": "Date of birth cannot be a future date",
+          "customMessageKey": "customDateNotInFuture"
+        }
+      ]
+    },
+    {
+      "field": "issued_at",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Issued at cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "certified_copy",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "CertifiedCopy cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Type cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_current",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "AddressCurrent cannot be longer than 35 characters"
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "category",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Category cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "sort_order",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Sort Order must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "objective_description",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 255,
+          "message": "Objective Description cannot be longer than 255 characters"
+        },
+        {
+          "type": "required",
+          "message": "objective_description is  required"
+        }
+      ]
+    },
+    {
+      "field": "applicable",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Applicable must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "comments",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Comments cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "rating",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Rating must be an integer"
+        }
+      ]
+    }
+  ],
+  "administration": [
+    {
+      "field": "client_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Client Reference cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "review_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Next Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Headline Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "compliance": [
+    {
+      "field": "risk_profile_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Risk Profile Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "service_type": [
+    {
+      "field": "description",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Service Type is  required"
+        },
+       
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Description cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "start_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Start date format is invalid"
+        },
+        {
+          "type": "required",
+          "message": "Start date is  required"
+        }
+      ]
+    },
+    {
+      "field": "end_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "End date format is invalid"
+        }
+      ]
+    }
+  ],
+  "dependants": [
+    {
+      "field": "first_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 30,
+          "message": "First Name cannot be longer than 30 characters"
+        }
+      ]
+    },
+    {
+      "field": "last_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Last Name is  required"
+        },
+        {
+          "type": "min",
+          "value": 1,
+          "message": "Last Name should contain atleast one character"
+        },
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Last Name cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "parent",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Parent cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "known_as",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Known As cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "income": [
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "outgoings": [
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "sort_order",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Sort Order must be a number"
+        }
+      ]
+    }
+  ],
+  "address_book": [
+    {
+      "field": "address_type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Address Type cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "organisation",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Organisation cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Contact Name cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_1",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address 1 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_2",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address 2 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "address_3",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Street Address 2 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "post_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 10,
+          "message": "Postcode cannot be longer than 10 characters"
+        }
+      ]
+    },
+    {
+      "field": "telephone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Telephone cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Telephone must be a number"
+        }
+      ]
+    },
+    {
+      "field": "home_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Home Phone cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Home Phone must be a number"
+        }
+      ]
+    },
+    {
+      "field": "work_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Work Phone cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Work Phone must be a number"
+        }
+      ]
+    },
+    {
+      "field": "mobile",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Mobile cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Mobile Phone must be a number"
+        }
+      ]
+    },
+    {
+      "field": "email",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Email cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "work_email",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Work Email cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_investment_asset": [
+    {
+      "field": "investment_account_number",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Account Number must be a number"
+        },
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Account Number cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "current_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Current Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "report_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Report Note cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Provider Contact cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Provider Phone must be a number"
+        },
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Provider phone cannot be longer than 20 digits"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_share_holdings_asset": [
+    {
+      "field": "share_current_number",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Quantity must be a number"
+        }
+      ]
+    },
+    {
+      "field": "share_current_number",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Quantity must be a number"
+        }
+      ]
+    },
+    {
+      "field": "share_current_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Current Price must be a number"
+        }
+      ]
+    },
+    {
+      "field": "share_current_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Current Price cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Current Price must be a number"
+        }
+      ]
+    },
+    {
+      "field": "current_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Current Value cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Current Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "share_original_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Original Value cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Original Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "report_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Report Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Company Contact cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Company Phone cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Original Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Company Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_home_personal_asset": [
+    {
+      "field": "home_original_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Orginal Value cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Original Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "current_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Current Value cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Current Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "report_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Report note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_banks_building_societies_asset": [
+    {
+      "field": "bank_sort_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Sort Code cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "bank_account_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Account Name cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "bank_account_number",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Account Number cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "current_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Balance cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Balance must be a number"
+        }
+      ]
+    },
+    {
+      "field": "bank_interest_rate",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 35,
+          "message": "Interest Rate cannot be longer than 35 characters"
+        },
+        {
+          "type": "number",
+          "message": "Interest Rate must be a number"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "report_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Report note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Contact cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 20,
+          "message": "Phone cannot be longer than 20 characters"
+        },
+        {
+          "type": "number",
+          "message": "Phone must be a number"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "fact_find_notes": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Note is  required"
+        },
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_date",
+      "validationType": "dates",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Date is  required"
+        },{
+          "type": "dates",
+          "message": "Please provide a valid date"
+        }
+      ]
+    },
+    {
+      "field": "category",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Category must be an integer"
+        }
+      ]
+    }
+  ],
+  "fees_charges": [
+    {
+      "field": "payment_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Payment ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "case_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Case ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "frequency",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Frequency cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "nb_register",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "NB Register must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "payment_source",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Payment Source cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "consultant",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Consultant cannot be longer than 35 characters"
+        }
+      ]
+    },
+    
+
+    {
+      "field": "provider",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Provider cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "introduced_by",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Introduced By cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "case_category",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Case Category must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "amount_to_company",
+      "validationType": "decimal",
+      "validations": [
+        {
+          "type": "decimal",
+          "message": "Amount to Company must follow decimal rule"
+        }
+      ]
+    },
+    {
+      "field": "commission_type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Fee Type is  required"
+        }
+      ]
+    },
+    {
+      "field": "status_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date"
+        }
+      ]
+    },
+    {
+      "field": "end_date",
+      "validationType": "dates",
+      "validations": [
+        {
+          "type": "dates",
+          "message": "Please provide a valid date"
+        },
+        {
+          "type": "required",
+          "message": "End Date is  required"
+        }
+       
+      ]
+    },
+    {
+      "field": "start_date",
+      "validationType": "dates",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Start Date is  required"
+        },
+        {
+          "type": "dates",
+          "message": "Please provide a valid date"
+        }
+      ]
+    },
+    {
+      "field": "payment_count",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Number of payment by cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "status",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "integer",
+          "message": "Status must be an integer"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note text cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    }
+  ],
+  "contacts_client_action": [
+    {
+      "field": "appointment_date",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Date is  required"
+        },{
+          "type": "date",
+          "message": "Please provide a valid date"
+        }
+      ]
+    },
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+
+    {
+      "field": "appointment_time",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Appointment time format is invalid"
+        }
+      ]
+    },
+    {
+      "field": "appointment_type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Appointment type cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Reason cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "appointment_assigned",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Appointment assigned cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "appointment_status",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Appointment status cannot be longer than 35 characters"
+        }
+      ]
+    }
+  ],
+  "contacts_notes": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Note is  required"
+        },
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_time",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Note time format is invalid"
+        }
+      ]
+    },
+    {
+      "field": "note_date",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Please provide a valid date"
+        }
+      ]
+    },
+    {
+      "field": "note_type",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 35,
+          "message": "Note type cannot be longer than 35 characters"
+        }
+      ]
+    },
+    {
+      "field": "file_link",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 250,
+          "message": "File link cannot be longer than 250 characters"
+        }
+      ]
+    },
+    {
+      "field": "category",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Category must be an integer"
+        }
+      ]
+    }
+  ],
+  "contacts_time_allocation": [
+    {
+      "field": "customer_id",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "guid",
+          "message": "Customer ID must be a valid UUID"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Note is  required"
+        },
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "allocated_date",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "required",
+          "message": "Date is  required"
+        }
+      ]
+    },
+    {
+      "field": "duration",
+      "validationType": "date",
+      "validations": [
+        {
+          "type": "date",
+          "message": "Duration format is invalid"
+        }
+      ]
+    }
+  ],
+  "liabilities_mortgages_liability": [
+    {
+      "field": "account_number",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Account Number cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "term",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        }
+      ]
+    },
+    {
+      "field": "note_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "report_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Report Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_address1",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Address 1 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_address2",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Address 2 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_address3",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Address 3 cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "property_postcode",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 8,
+          "message": "Postcode cannot be longer than 8 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_investment_fund": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_life_assurance_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_pensions_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_savings_plans_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_investments_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_income_protection_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_health_assurance_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_general_funds": [
+    {
+      "field": "fund_code",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 12,
+          "message": "Fund Code cannot be longer than 12 characters"
+        }
+      ]
+    },
+    {
+      "field": "fund_units",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Units must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "unit_price",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Price must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_expense_ratio",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Expense Ratio must  be a number"
+        }
+      ]
+    }
+  ],
+  "policies_life_assurance_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "surrender_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Surrender Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "future_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Future Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "sum_assured",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Sum Assured must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "withdrawal_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Withdrawal Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_pensions_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "transfer_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Transfer Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "future_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Future Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefits",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "expression_of_wishnote",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Expression of Wish Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_investments_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "surrender_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Surrender Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "future_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Future Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Fund Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_savings_plans_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "surrender_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Surrender Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "future_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Future Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Fund Value must be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_income_protection_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "total_fund_value",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Total Fund Value must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefits",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_health_assurance_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_general_policy": [
+    {
+      "field": "term",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "maxLength",
+          "value": 5,
+          "message": "Term cannot be longer than 5 characters"
+        },
+        {
+          "type": "number",
+          "message": "Term must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "lump_sum_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Lump Sum Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "periodic_benefit",
+      "validationType": "number",
+      "validations": [
+        {
+          "type": "number",
+          "message": "Periodic Benefit must  be a number"
+        }
+      ]
+    },
+    {
+      "field": "other_reference",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Other Reference cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "benefit_text",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Benefit Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "admin_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Admin Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "in_trust_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "In Trust Note cannot be longer than 5000 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_contact_name",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 50,
+          "message": "Provider Contact cannot be longer than 50 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_phone",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 20,
+          "message": "Provider Phone cannot be longer than 20 characters"
+        }
+      ]
+    },
+    {
+      "field": "provider_note",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Provider Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_investment_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_share_holdings_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_home_personal_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "asset_banks_building_societies_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "liabilities_mortgages_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "liabilities_loan_hire_purchase_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "liabilities_credit_cards_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_life_assurance_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_pensions_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_investments_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_savings_plans_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_income_protection_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_health_assurance_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ],
+  "policies_general_review": [
+    {
+      "field": "review_reason",
+      "validationType": "string",
+      "validations": [
+        {
+          "type": "max",
+          "value": 5000,
+          "message": "Review Note cannot be longer than 5000 characters"
+        }
+      ]
+    }
+  ]
+}

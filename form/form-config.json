@@ -1,0 +1,314 @@
+[
+  {
+    "context": "CLIENT_NAME_ADDRESS",
+    "actionUrl": {
+      "create": "/customer",
+      "edit": "/customer/{id}",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "name_and_address",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_CONTACT",
+    "actionUrl": {
+      "create": "/customer",
+      "edit": "/customer/{id}",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "contact",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_NATIONALITY",
+    "actionUrl": {
+      "create": "/customer",
+      "edit": "/customer/{id}",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "nationality",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_PERSONAL",
+    "actionUrl": {
+      "create": "/customer",
+      "edit": "/customer/{id}",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "personal",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_HEALTH_NOTE",
+    "actionUrl": {
+      "create": "/customer",
+      "edit": "/customer/{id}",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "health_note",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_EMPLOYMENT",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "employment",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_ATTITUDE_TO_RISK",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "attitude_to_risk",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_IDENTITY",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "identity",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_OBJECTIVES",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "objectives",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_SERVICE_TYPE",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "service_type",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_INVESTMENT",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_investment_asset",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_INVESTMENT_FUND",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_INVESTMENT_PAYMENTS",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_investment_payment",
+      "general_fields": [],
+      "custom_fields": [""]
+    }
+  },
+  {
+    "context": "ASSET_INVESTMENT_REVIEW",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_investment_review",
+      "general_fields": [],
+      "custom_fields": [""]
+    }
+  },
+  {
+    "context": "ASSET_SHARE_HOLDINGS",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_share_holdings_asset",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_SHARE_HOLDINGS_PAYMENT",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_share_holdings_payment",
+      "general_fields": [],
+      "custom_fields": [""]
+    }
+  },
+  {
+    "context": "ASSET_HOME_AND_PERSONAL",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_home_personal_asset",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_BANKS_BUILDING_SOCIETIES",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_banks_building_societies_asset",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ASSET_BANKS_BUILDING_SOCIETIES_PAYMENT",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "asset_banks_building_societies_payment",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "ADMINISTRATION",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "administration",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "COMPLIANCE",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "compliance",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_DEPENDANT",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "dependants",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_OUTGOINGS",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "outgoings",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  },
+  {
+    "context": "CLIENT_INCOME",
+    "actionUrl": {
+      "create": "",
+      "edit": "",
+      "redirect": ""
+    },
+    "renderForm": {
+      "reference_id": "income",
+      "general_fields": [],
+      "custom_fields": []
+    }
+  }
+]
